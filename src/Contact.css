@@ -1,0 +1,31 @@
+.Heading{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: dodgerblue;
+    padding: 20px;
+}
+.maincontainer{
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+#logo{
+    width: 500px;
+    height: 500px;
+}
+.info{
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.subflex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

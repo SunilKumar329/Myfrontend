@@ -1,0 +1,37 @@
+.mainflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sub-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f6ff;
+  border-radius: 30px;
+}
+.image1{
+  width: 550px;
+  height: 300px;
+  margin: 100px;
+}
+.image2{
+  width: 300px;
+  height: 80px;
+  padding: 30px;
+}
+.heading{
+  text-align: center;
+  color: cornflowerblue;
+}
+.labelnames{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  align-items: flex-start;
+}
+.loginbutton{
+  background-color: blue;
+  border-radius: 20px;
+  margin: 20px;
+}

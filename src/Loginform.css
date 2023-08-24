@@ -1,0 +1,57 @@
+.mainflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sub-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f6ff;
+    border-radius: 30px;
+  }
+  .image1{
+    width: 550px;
+    height: 300px;
+    margin: 100px;
+  }
+  .image2{
+    width: 300px;
+    height: 80px;
+    padding: 30px;
+  }
+  .heading{
+    text-align: center;
+    color: cornflowerblue;
+  }
+  .labelinput{
+    display: block;
+    align-items: flex-start;
+    border-radius: 10px;
+
+  }
+  .labelnames{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 5px;
+padding-bottom: 5px;
+  }
+  .loginbutton{
+    background-color: rgb(60, 57, 241);
+    border-radius: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    color: #e6f6ff;
+  }
+  .errortab{
+    color: red;
+    font-weight: 200;
+    font-size: medium;
+  }
+  .signupbtn{
+    background-color: rgb(60, 57, 241);
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 10px;
+    color: #e6f6ff;
+  }
